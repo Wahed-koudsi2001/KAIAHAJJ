@@ -1,25 +1,27 @@
 nav .buttons::before {
     left: 49%;
 }
-.banner .title {
-    padding: 0 0 0 10px;
-    font-size: 18px;
-    text-align: left;
-}
+
 nav .buttons .drop-menu {
     left: initial;
     right: 0;
 }
 .services .row-2 div .main-title {
-    font-size: 13px;
+    font-size: 20px;
 }
 
 .services .row-2 div.one {
     left: -190px;
 }
 @media (max-width: 768px) {
+    .banner .title {
+        padding: 0 0 0 30px;
+        font-size: 18px;
+        text-align: left;
+    }
     .services .row-2 div.one {
-        left: 5px;
+        top: 6%;
+        left: 35px;
     }
     .services .row-2 div.five {
         left: 20px;
