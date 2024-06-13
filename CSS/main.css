@@ -215,7 +215,7 @@ nav .logos img {
     right: -200px;
 }
 .services .row-2 div.three {
-    left: -200px;
+    left: -110px;
 }
 .services .row-2 div.four {
     right: -200px;
@@ -227,16 +227,19 @@ nav .logos img {
     right: -240px;
 }
 .services .row-2 div.seven {
-    left: -160px;
+    left: -200px;
 }
 .services .row-2 div.eight {
-    right: -260px;
+    right: -150px;
 }
 .services .row-2 div.nine {
     left: -190px;
 }
 .services .row-2 div.ten {
-    right: -290px;
+    right: -200px;
+}
+.services .row-2 div.eleven {
+    left: -250px;
 }
 .services .row-2 .read-more {
     width: 100%;
@@ -281,7 +284,7 @@ nav .logos img {
     }
     .services .row-2 {
         width: 100%;
-        height: 350vw;
+        height: 410vw;
         background: url(../IMGS/aaaa.svg) no-repeat center center/cover;
     }
     .services .row-2 div {
@@ -295,37 +298,37 @@ nav .logos img {
     .services .row-2 div.two {
         display: block !important;
         right: 20%;
-        top: 16%;
+        top: 14%;
     }
     .services .row-2 div.three {
         display: block !important;
-        left: 25%;
-        top: 25%;
+        left: 18%;
+        top: 22%;
     }
     .services .row-2 div.four {
         display: block !important;
-        right: 27%;
-        top: 35%;
+        right: 15%;
+        top: 31%;
     }
     .services .row-2 div.five {
         display: block !important;
-        left: 27%;
-        top: 44%;
+        left: 15%;
+        top: 38%;
     }
     .services .row-2 div.six {
         display: block !important;
-        right: 20%;
-        top: 53%;
+        right: 15%;
+        top: 46%;
     }
     .services .row-2 div.seven {
         display: block !important;
-        left: 24%;
-        top: 62%;
+        left: 15%;
+        top: 53%;
     }
     .services .row-2 div.eight {
         display: block !important;
-        right: 24%;
-        top: 71%;
+        right: 17%;
+        top: 61%;
     }
     .services .row-2 div.eight .main-title,
     .services .row-2 div.five .main-title,
@@ -334,13 +337,18 @@ nav .logos img {
     }
     .services .row-2 div.nine {
         display: block !important;
-        left: 27%;
-        top: 81%;
+        left: 6%;
+        top: 70%;
     }
     .services .row-2 div.ten {
         display: block !important;
         right: 20%;
-        top: 90%;
+        top: 78%;
+    }
+    .services .row-2 div.eleven {
+        display: block !important;
+        left: 5%;
+        top: 86%;
     }
     nav .buttons .button {
         font-size: 10px;
