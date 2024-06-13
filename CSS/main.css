@@ -412,17 +412,6 @@ nav .logos img {
         top: 61%;
     }
 }
-.box {
-    margin-top: 300px;
-    position: relative;
-    padding: 20px;
-    border: 1px solid #ddd;
-    cursor: pointer;
-}
-.main-title {
-    font-size: 20px;
-    font-weight: bold;
-}
 .popup {
     display: none;
     position: fixed;
