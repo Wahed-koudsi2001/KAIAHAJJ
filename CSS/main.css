@@ -200,7 +200,7 @@ nav .logos img {
     margin: 0px auto;
     width: 50%;
     height: 500vh;
-    background: url(../IMGS/1111.svg) no-repeat center center/cover;
+    background: url(../IMGS/www.svg) no-repeat center center/cover;
     position: relative;
 }
 .services .row-2 div {
@@ -276,9 +276,6 @@ nav .logos img {
     font-size: 24px;
 }
 @media (max-width: 991px) {
-    nav .logos {
-        display: none;
-    }
     .services .row {
         grid-template-columns: repeat(4, 1fr);
     }
@@ -289,7 +286,6 @@ nav .logos img {
     }
     .services .row-2 div {
         margin: 0 !important;
-        /* display: none !important; */
     }
     .services .row-2 div.one {
         display: block !important;
@@ -346,6 +342,9 @@ nav .logos img {
         right: 20%;
         top: 90%;
     }
+    nav .buttons .button {
+        font-size: 10px;
+    }
 }
 .logos {
     padding: 20px 0;
@@ -376,15 +375,17 @@ nav .logos img {
     }
     .banner .title {
         position: absolute;
-        top: 40%;
+        top: 32%;
+        padding-right: 40px;
         right: 50%;
+        text-align: right;
         transform: translate(50%, 50%);
         -webkit-transform: translate(50%, 50%);
         -moz-transform: translate(50%, 50%);
         -ms-transform: translate(50%, 50%);
         -o-transform: translate(50%, 50%);
         width: 100%;
-        font-size: 31px;
+        font-size: 30px;
     }
 
     .services .first p {
@@ -399,11 +400,19 @@ nav .logos img {
     .maps {
         padding: 50px;
     }
+    nav .logos img {
+        width: 40px;
+    }
 }
 
 @media (max-width: 700px) {
     .services .row-2 div .main-title {
         font-size: 19px;
+    }
+}
+@media (max-width: 550px) {
+    nav .logos img {
+        width: 12px;
     }
 }
 
