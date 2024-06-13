@@ -6,3 +6,49 @@ nav .buttons .drop-menu {
     left: initial;
     right: 0;
 }
+.services .row-2 div .main-title {
+    font-size: 15px;
+}
+
+.services .row-2 div.one {
+    left: -190px;
+}
+@media (max-width: 768px) {
+    .services .row-2 div.one {
+        left: 5px;
+    }
+    .services .row-2 div.five {
+        left: 20px;
+    }
+    .services .row-2 div.six {
+        right: 5px;
+    }
+    .services .row-2 div.seven {
+        left: 50px;
+    }
+    .services .row-2 div.eight {
+        right: 30px;
+    }
+    .services .row-2 div.nine {
+        left: 30px;
+    }
+    .services .row-2 div.ten {
+        right: 10px;
+        top: 88.5%;
+    }
+    .services .row-2 div.one .main-title {
+        font-size: 14px;
+    }
+    .services .row-2 div.eight .main-title {
+        font-size: 13px;
+    }
+    .services .row-2 div.ten .main-title {
+        font-size: 12px;
+    }
+    .services .row-2 div.six .main-title {
+        font-size: 13px;
+    }
+    .services .row-2 div.five .main-title {
+        font-size: 14px;
+    }
+}
