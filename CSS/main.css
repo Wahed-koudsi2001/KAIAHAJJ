@@ -415,6 +415,13 @@ nav .logos img {
         height: 100px;
         flex-direction: column;
     }
+    nav .buttons {
+        display: flex;
+        align-items: center;
+    }
+    nav .logos {
+        padding: 0 0 10px 0;
+    }
     nav .logos img {
         width: 100%;
         justify-content: space-around;
