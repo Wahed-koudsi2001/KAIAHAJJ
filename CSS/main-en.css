@@ -11,7 +11,7 @@ nav .buttons .drop-menu {
     right: 0;
 }
 .services .row-2 div .main-title {
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .services .row-2 div.one {
@@ -37,8 +37,8 @@ nav .buttons .drop-menu {
         left: 30px;
     }
     .services .row-2 div.ten {
-        right: 10px;
-        top: 88.5%;
+        right: 65px;
+        top: 78.5%;
     }
     .services .row-2 div.one .main-title {
         font-size: 14px;
