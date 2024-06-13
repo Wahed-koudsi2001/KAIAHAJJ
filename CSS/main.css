@@ -502,6 +502,10 @@ nav .logos img {
     font-size: 12px;
     padding: 10px;
 }
+.popup .icons img {
+    height: 100%;
+    width: 100%;
+}
 .popup .content {
     display: flex;
     flex-direction: column;
