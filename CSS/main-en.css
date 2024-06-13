@@ -1,7 +1,11 @@
 nav .buttons::before {
     left: 49%;
 }
-
+.banner .title {
+    padding: 0 0 0 10px;
+    font-size: 18px;
+    text-align: left;
+}
 nav .buttons .drop-menu {
     left: initial;
     right: 0;
