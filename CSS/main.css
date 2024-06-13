@@ -218,7 +218,7 @@ nav .logos img {
     left: -200px;
 }
 .services .row-2 div.four {
-    right: -160px;
+    right: -200px;
 }
 .services .row-2 div.five {
     left: -200px;
@@ -503,8 +503,8 @@ nav .logos img {
     padding: 10px;
 }
 .popup .icons img {
-    height: 100%;
     width: 100%;
+    height: 100%;
 }
 .popup .content {
     display: flex;
