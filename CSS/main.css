@@ -14,6 +14,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 0 30px;
+    user-select: none;
 }
 nav .title,
 nav .lang {
@@ -28,15 +29,46 @@ nav .buttons::before {
     position: absolute;
     left: 55%;
     top: 50%;
-    transform: translate(-50%, -50%);
     background-color: #fff;
     width: 1px;
     height: 100%;
+    transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     z-index: 9999;
+}
+nav .buttons .drop-menu {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 50%;
+    background-color: #fff;
+    height: 100px;
+    z-index: 999;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    display: none;
+}
+nav .buttons .drop-menu.active {
+    display: flex;
+}
+
+nav .buttons .drop-menu a {
+    width: 100%;
+    display: block;
+    font-size: 17px;
+}
+nav .buttons .drop-menu a.active {
+    color: #64b1e7;
 }
 nav .buttons .button {
     background-color: #1c3763;
@@ -362,6 +394,9 @@ nav .logos img {
 
     .services .row {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .maps {
+        padding: 50px;
     }
 }
 

@@ -1,0 +1,8 @@
+nav .buttons::before {
+    left: 49%;
+}
+
+nav .buttons .drop-menu {
+    left: initial;
+    right: 0;
+}

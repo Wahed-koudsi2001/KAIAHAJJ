@@ -1,3 +1,10 @@
+let wahedClick = document.querySelector('.wahed-click')
+let menu = document.querySelector('.drop-menu');
+
+wahedClick.addEventListener('click', () => {
+    menu.classList.toggle("active")
+})
+
 document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('.wahed-box').forEach(box => {
         box.addEventListener('click', () => {
