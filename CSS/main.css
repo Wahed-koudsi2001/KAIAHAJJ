@@ -375,8 +375,8 @@ nav .logos img {
     }
     .banner .title {
         position: absolute;
-        top: 32%;
-        padding-right: 40px;
+        top: 28%;
+        padding-right: 28px;
         right: 50%;
         text-align: right;
         transform: translate(50%, 50%);
@@ -411,8 +411,19 @@ nav .logos img {
     }
 }
 @media (max-width: 550px) {
+    nav {
+        height: 100px;
+        flex-direction: column;
+    }
     nav .logos img {
-        width: 12px;
+        width: 100%;
+        justify-content: space-around;
+    }
+    nav .logos img {
+        width: 50px;
+    }
+    .banner .title {
+        font-size: 26px;
     }
 }
 
