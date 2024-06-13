@@ -343,7 +343,7 @@ nav .logos img {
     }
     .banner .title {
         position: absolute;
-        top: 50%;
+        top: 40%;
         right: 50%;
         transform: translate(50%, 50%);
         -webkit-transform: translate(50%, 50%);
@@ -351,6 +351,7 @@ nav .logos img {
         -ms-transform: translate(50%, 50%);
         -o-transform: translate(50%, 50%);
         width: 100%;
+        font-size: 31px;
     }
 
     .services .first p {
