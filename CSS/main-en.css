@@ -9,9 +9,14 @@ nav .buttons .drop-menu {
 .services .row-2 div .main-title {
     font-size: 20px;
 }
-
+.services .row-2 {
+    background: url(../IMGS/sliderenglish/1200..svg) no-repeat center center/cover;
+}
 .services .row-2 div.one {
     left: -190px;
+}
+.services .row-2 div.three {
+    left: -200px;
 }
 @media (max-width: 768px) {
     .banner .title {
@@ -22,6 +27,13 @@ nav .buttons .drop-menu {
     .services .row-2 div.one {
         top: 6%;
         left: 35px;
+    }
+    .services .row-2 div.three {
+        left: 30px;
+        top: 22%;
+    }
+    .services .row-2 div.three .main-title {
+        font-size: 14px;
     }
     .services .row-2 div.five {
         left: 20px;
