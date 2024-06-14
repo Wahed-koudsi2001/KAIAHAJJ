@@ -9,64 +9,28 @@ nav .buttons .drop-menu {
 .services .row-2 div .main-title {
     font-size: 20px;
 }
+.services .row-2 .one {
+    left: 10vw;
+}
+.services .row-2 .three {
+    left: 15vw;
+}
+.services .row-2 .eleven {
+    left: 15vw;
+    top: 158vw;
+}
+.services .row-2 .twelve {
+    right: 10vw;
+    top: 177vw;
+}
 .services .row-2 {
     background: url(../IMGS/sliderenglish/1200..svg) no-repeat center center/cover;
 }
-.services .row-2 div.one {
-    left: -190px;
-}
-.services .row-2 div.three {
-    left: -200px;
-}
+
 @media (max-width: 768px) {
     .banner .title {
         padding: 0 0 0 30px;
         font-size: 18px;
         text-align: left;
-    }
-    .services .row-2 div.one {
-        top: 6%;
-        left: 35px;
-    }
-    .services .row-2 div.three {
-        left: 30px;
-        top: 22%;
-    }
-    .services .row-2 div.three .main-title {
-        font-size: 14px;
-    }
-    .services .row-2 div.five {
-        left: 20px;
-    }
-    .services .row-2 div.six {
-        right: 5px;
-    }
-    .services .row-2 div.seven {
-        left: 50px;
-    }
-    .services .row-2 div.eight {
-        right: 30px;
-    }
-    .services .row-2 div.nine {
-        left: 30px;
-    }
-    .services .row-2 div.ten {
-        right: 65px;
-        top: 78.5%;
-    }
-    .services .row-2 div.one .main-title {
-        font-size: 14px;
-    }
-    .services .row-2 div.eight .main-title {
-        font-size: 13px;
-    }
-    .services .row-2 div.ten .main-title {
-        font-size: 12px;
-    }
-    .services .row-2 div.six .main-title {
-        font-size: 13px;
-    }
-    .services .row-2 div.five .main-title {
-        font-size: 14px;
     }
 }
